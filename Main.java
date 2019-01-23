@@ -3,6 +3,9 @@
 import java.sql.*;
 import java.util.Scanner;
 
+/**
+Main class
+*/
 
 public class Main {
 	
@@ -12,11 +15,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int counter = 0;
 		
-   //  OnlineTest test =  new OnlineTest("Online Test Of Java");
-      // scanner
-      // start the exam
-      // reterive  the question from db. ask to user
-      // scan user input and compare with answer. if matches increase the correct count.
+  
 		String questionno = null;
 		String question = null;
 		String answer = null;
